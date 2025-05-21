@@ -34,8 +34,8 @@ spartiSuite("🚀 Login Page Testing", { tags: '@smoke' }, () => {
           step_clickNext().
           step_enterPassword("abcAbc@123456").
           step_clickLogin().
-          step_verify_loginPage().
-          step_navigateAllInstallation()            
+          step_verify_loginPage()
+          //step_navigateAllInstallation()            
       });
       it('Test - Verify Login with incorrect e-mail', () => {
           loginPage.

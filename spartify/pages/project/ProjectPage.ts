@@ -1,6 +1,6 @@
 import { SpartiUI } from "@spartify.io/spartify-engine";
 import { PlatformSidePanel } from "../panels/platformSidePanel"
-import { PlatformAllInstallationPage } from "../home/platformAllInstallationPage";
+//import { PlatformAllInstallationPage } from "../home/platformAllInstallationPage";
 
 export class Platformproject {
 
